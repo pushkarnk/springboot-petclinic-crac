@@ -1,8 +1,8 @@
 ## Checkpointing and restoring SpringBoot PetClinic using OpenJDK CRaC
 
-The following are steps to demonstrate checkpointing and restoring of the SpringBoot PetClinic application. The Oracular Oriole (24.10) release of Ubuntu comes with new OpenJDK CRaC packages (openjdk-17-crac and openjdk-21-crac). 
+The following are steps to demonstrate checkpointing and restoring of the SpringBoot PetClinic application. The Oracular Oriole (24.10) release of Ubuntu comes with new OpenJDK CRaC packages ([openjdk-17-crac](https://launchpad.net/ubuntu/+source/openjdk-17-crac) and [openjdk-21-crac](https://launchpad.net/ubuntu/+source/openjdk-21-crac). 
 
-However, the restore step for the PetClinic application causes a CRIU crash on Ubuntu 24.10. This issue is under investigation. As a result, we execute this demo on Ubuntu 24.04. The OpenJDK CRaC packages are published to this PPA.
+However, the restore step for the PetClinic application causes a CRIU crash on Ubuntu 24.10. This issue is under investigation. As a result, we execute this demo on Ubuntu 24.04. The OpenJDK CRaC packages are published to [this](https://launchpad.net/~pushkarnk/+archive/ubuntu/openjdk-crac-noble) PPA.
 
 ### Step 1
 
